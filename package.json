@@ -1,0 +1,46 @@
+{
+  "name": "environment-variable-injector",
+  "version": "0.0.1",
+  "description": "Environment-variable-injector plugin for release-it",
+  "main": "index.js",
+  "scripts": {
+    "test": "bron test.js",
+    "release": "release-it"
+  },
+  "keywords": [
+    "release",
+    "release-it",
+    "release-it-plugin",
+    "environment-variables"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johanhammar/environment-variable-injector.git"
+  },
+  "homepage": "https://github.com/johanhammar/environment-variable-injector#readme",
+  "bugs": "https://github.com/johanhammar/environment-variable-injector/issues",
+  "author": {
+    "name": "Johan Hammar",
+    "email": "johan.hammar@gmail.com"
+  },
+  "peerDependencies": {
+    "release-it": "^14.0.2"
+  },
+  "devDependencies": {
+    "bron": "^1.1.1",
+    "release-it": "^14.0.2",
+    "sinon": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "hooks": {
+      "before:init": "npm test"
+    }
+  }
+}
