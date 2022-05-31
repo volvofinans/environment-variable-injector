@@ -16,24 +16,25 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johanhammar/environment-variable-injector.git"
+    "url": "https://github.com/volvofinans/environment-variable-injector.git"
   },
-  "homepage": "https://github.com/johanhammar/environment-variable-injector#readme",
-  "bugs": "https://github.com/johanhammar/environment-variable-injector/issues",
+  "homepage": "https://github.com/volvofinans/environment-variable-injector#readme",
+  "bugs": "https://github.com/volvofinans/environment-variable-injector/issues",
   "author": {
     "name": "Johan Hammar",
-    "email": "johan.hammar@gmail.com"
+    "email": "johan.hammar@volvofinans.se"
   },
   "peerDependencies": {
-    "release-it": "^14.0.2"
+    "release-it": "^15.0.0"
   },
   "devDependencies": {
-    "bron": "^1.1.1",
-    "release-it": "^14.0.2",
-    "sinon": "^9.0.2"
+    "bron": "^2.0.3",
+    "release-it": "^15.0.0",
+    "@release-it/keep-a-changelog": "^3.0.0",
+    "sinon": "^14.0.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=16"
   },
   "release-it": {
     "github": {
@@ -41,6 +42,12 @@
     },
     "hooks": {
       "before:init": "npm test"
+    },
+    "plugins": {
+      "@release-it/keep-a-changelog": {
+        "filename": "CHANGELOG.md",
+        "addUnreleased": true
+      }
     }
   }
 }
