@@ -1,4 +1,4 @@
-const { Plugin } = require('release-it');
+import { Plugin } from 'release-it';
 
 class EnvironmentVariableInjector extends Plugin {
 
@@ -39,4 +39,4 @@ class EnvironmentVariableInjector extends Plugin {
 
 }
 
-module.exports = EnvironmentVariableInjector;
+export default EnvironmentVariableInjector;
