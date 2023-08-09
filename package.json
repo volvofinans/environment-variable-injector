@@ -27,15 +27,15 @@
     "email": "johan.hammar@volvofinans.se"
   },
   "peerDependencies": {
-    "release-it": "^15.3.0"
+    "release-it": "^16.1.0"
   },
   "devDependencies": {
     "bron": "^2.0.3",
-    "release-it": "^15.3.0",
-    "sinon": "^14.0.0"
+    "release-it": "^16.1.0",
+    "sinon": "^15.2.0"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "release-it": {
     "github": {
