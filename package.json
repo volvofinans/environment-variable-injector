@@ -18,7 +18,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/volvofinans/environment-variable-injector.git"
+    "url": "git@github.com:volvofinans/environment-variable-injector.git"
+  },
+  "publishConfig": {
+    "registry": "https://maven.volvofinans.net/repo/repository/npm-hosted"
   },
   "homepage": "https://github.com/volvofinans/environment-variable-injector#readme",
   "bugs": "https://github.com/volvofinans/environment-variable-injector/issues",
