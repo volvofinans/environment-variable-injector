@@ -1,6 +1,6 @@
 {
   "name": "environment-variable-injector",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Environment-variable-injector plugin for release-it",
   "main": "index.js",
   "type": "module",
