@@ -18,13 +18,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johanhammar/environment-variable-injector.git"
+    "url": "https://github.com/volvofinans/environment-variable-injector.git"
   },
-  "homepage": "https://github.com/johanhammar/environment-variable-injector#readme",
-  "bugs": "https://github.com/johanhammar/environment-variable-injector/issues",
+  "homepage": "https://github.com/volvofinans/environment-variable-injector#readme",
+  "bugs": "https://github.com/volvofinans/environment-variable-injector/issues",
   "author": {
     "name": "Johan Hammar",
-    "email": "johan.hammar@gmail.com"
+    "email": "johan.hammar@volvofinans.se"
   },
   "peerDependencies": {
     "release-it": "^15.3.0"
