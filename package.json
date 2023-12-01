@@ -20,9 +20,6 @@
     "type": "git",
     "url": "git@github.com:volvofinans/environment-variable-injector.git"
   },
-  "publishConfig": {
-    "registry": "https://maven.volvofinans.net/repo/repository/npm-hosted"
-  },
   "homepage": "https://github.com/volvofinans/environment-variable-injector#readme",
   "bugs": "https://github.com/volvofinans/environment-variable-injector/issues",
   "author": {
@@ -30,12 +27,12 @@
     "email": "johan.hammar@volvofinans.se"
   },
   "peerDependencies": {
-    "release-it": "^16.1.0"
+    "release-it": "^17.0.0"
   },
   "devDependencies": {
     "bron": "^2.0.3",
-    "release-it": "^16.1.0",
-    "sinon": "^15.2.0"
+    "release-it": "^17.0.0",
+    "sinon": "^17.0.0"
   },
   "engines": {
     "node": ">=18"
